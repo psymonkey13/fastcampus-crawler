@@ -2,6 +2,9 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import requests
 import time
+import os
+
+# print (os.path.dirname(os.path.realpath(__file__)) )#파일이 위치한 디렉토리
 
 # driver = webdriver.Chrome('./driver/chromedriver.exe')
 # driver.get('https://www.instagram.com/accounts/login/')
