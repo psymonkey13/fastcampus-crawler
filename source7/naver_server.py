@@ -13,5 +13,4 @@ message = ''
 for word in keywords:
     message += word.text.strip() + '\n'
 
-
 bot.sendMessage(chat_id=570871023, text=message)
